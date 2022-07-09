@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(14, 13, 13);
+    font-family: poppins;
+    background-image: url("images/");
+    
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+#logo{
+    width: 150px;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.about, .home, .course, .contact{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+h1{
+    font-size: 70px;
+    padding: 30px;
+    color: white;
+}
+h4{
+    color: white;
+}
+.visit{
+    width: 200px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.course-side{
+    background-color: white;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+.course-type{
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-title{
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color: white;
+}
+.course-details{
+    color: white;
+}
+.course-content{
+    background-color: rgb(10, 10, 10);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.alumni{
+    background-color: black;
+}
+.oa{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.alumni-type{
+    display: flex;
+    flex-wrap: wrap;
+}
+.name, .story{
+    color: black;
+}
+.alumni-title{
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.place-title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.company-logo{
+    width: 100px;
+    padding: 5px;
+}
+.place-companies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: black;
+}
+h5{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.social-logo{
+    width: 20px;
+    padding: 10px;
+}
+h4{
+    text-align: center;
+    padding: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* About us page CSS */
+.about-side{
+    background-color: black;
+}
+.about-us{
+    color: white;
+    padding: 60px;
+}
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 80px;
+}
+.about-sec{
+    padding: 50px;
+    font-size: 50px;
+}
+.about-para{
+    padding: 50px;
+}
+
+/* Contact us css */
+
+.course-table{
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-img{
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+table, td, th {
+    border: 1px solid;
+  }
+  th{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+  
+  table {
+    height: 400px;
+    width: 700px;
+    border-collapse: collapse;
+    margin: 50px;
+  }
+
+  td{
+    text-align: center;
+  }
+
+  /* Contact side css */
+  .contact-img{
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .contact-side{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact-form{
+    padding: 20px;
+    border: 2px solid black;
+    height: fit-content;
+    margin: 50px;
+    border-radius: 10px;
+
+  }
+  .input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  label{
+    font-weight: bold;
+  }
+  button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+.thankyou{
+    color :rgb(10, 10, 10);
+    text-align: center;
+    padding: 50px;
+
+}
